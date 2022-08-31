@@ -1,0 +1,18 @@
+[project]
+name = "python-cdk-starter-kit"
+version = "0.0.1"
+description = "Python starter for the AWS CDK!"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["python", "cdk", "starter"]
+authors = [{ email = "alexhardman@launchdarkly.com" }]
+maintainers = [
+  { name = "Alex Hardman", email = "alexhardman@launchdarkly.com" }
+]
+dependencies = [
+  "aws-cdk-lib >= 2.39.1",
+  "constructs>=10.0.0,<11.0.0",
+  "launchdarkly-server-sdk >= 7.5.0",
+  "python-dotenv >= 0.20.0",
+  "pip-tools >= 6.8.0"
+]
