@@ -40,7 +40,7 @@ if __name__ == "__main__":
         "name": "Munnawar"
     }
 
-    flag_value = ldclient.get().variation(feature_flag_key, user, False)
+    flag_value = ldclient.get().variation(feature_flag_key, user, 'default message')
 
     show_message("Feature flag '%s' is %s for this user" %
                  (feature_flag_key, flag_value))
