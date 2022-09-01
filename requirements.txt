@@ -30,7 +30,6 @@ jsii==1.66.0
     #   aws-cdk-aws-lambda-python-alpha
     #   aws-cdk-lib
     #   constructs
-launchdarkly-server-sdk >= 7.5.0
 publication==0.0.3
     # via
     #   aws-cdk-aws-lambda-python-alpha

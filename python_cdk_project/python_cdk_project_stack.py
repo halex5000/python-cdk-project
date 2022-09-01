@@ -8,13 +8,15 @@ from aws_cdk import (
     aws_lambda_python_alpha as lambda_alpha
 )
 from constructs import Construct
+from dotenv import load_dotenv
 
+load_dotenv()  # take environment variables from .env.
 
 # Set sdk_key to your LaunchDarkly SDK key before running
-sdk_key = os.environ.get('SDK_KEY') or ''
+sdk_key = os.getenv('SDK_KEY') or ''
 
 # Set feature_flag_key to the feature flag key you want to evaluate
-feature_flag_key = os.environ.get('FLAG_KEY') or ''
+feature_flag_key = os.getenv('FLAG_KEY') or ''
 
 
 class PythonCdkProjectStack(Stack):
