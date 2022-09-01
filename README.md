@@ -1,5 +1,39 @@
+# Python CDK Starter
 
-# Welcome to your CDK Python project!
+
+
+## prerequisites:
+1. NPM 6+ installed
+2. AWS CDK command line installed: `npm install -g aws-cdk`
+3. AWS CLI installed and configured: https://aws.amazon.com/cli/ 
+4. Docker CLI installed:  https://docs.rancherdesktop.io/getting-started/installation 
+(recommend installing rancher instead as it is free, but Docker itself requires a license now, this install includes the Docker CLI without license constraints)
+
+## to use this as is and deploy to your account, do the following:
+
+1. make a copy of `.env.example`
+2. rename to `.env`
+3. Update `.env` with your SDK key and Flag key
+4. Run `python3 -m venv .venv`
+5. Run `source .venv/bin/activate`
+6. Run `pip install -r requirements.txt`
+7. cd to the `munnawar_python_function` directory
+8. Run `pip install -r requirements.txt` again
+(the function has different dependencies than the project)
+9.  to deploy run `cdk deploy` from within the project root.
+
+
+## Handy links:
+- getting started with the CDK: https://docs.aws.amazon.com/cdk/v2/guide/hello_world.html
+- python CDK example: https://github.com/aws-samples/aws-cdk-examples/tree/master/python/dynamodb-lambda
+- python CDK docs: https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk/README.html
+- LaunchDarkly python SDK docs: https://docs.launchdarkly.com/sdk/server-side/python
+- Sample LaunchDarkly python app: https://github.com/launchdarkly/hello-python
+- AWS Lambda CDK Python Docs: https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_lambda/Function.html
+- Experimental CDK Python Lambda Function construct docs: https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_lambda_python_alpha/README.html
+- 
+
+## Welcome to your CDK Python project!
 
 This is a blank project for CDK development with Python.
 
