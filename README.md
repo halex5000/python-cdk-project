@@ -14,14 +14,38 @@
 1. make a copy of `.env.example`
 2. rename to `.env`
 3. Update `.env` with your SDK key and Flag key
-4. Run `python3 -m venv .venv`
-5. Run `source .venv/bin/activate`
-6. Run `pip install -r requirements.txt`
+4. Run 
+    ```shell
+    python3 -m venv .venv
+    ```
+5. Run 
+    ```shell
+    source .venv/bin/activate
+    ```
+6. Run 
+    ```shell
+    pip install -r requirements.txt
+    ```
 7. cd to the `munnawar_python_function` directory
-8. Run `pip install -r requirements.txt` again
-(the function has different dependencies than the project)
-9. to run the function locally, run `./index.py` in the terminal, if this doesn't work, `chmod u+x ./index.py` should change perms to allow execute
-10.  to deploy run `cdk deploy` from within the project root. this will use environment variables from 
+8. Run 
+    ```shell
+    pip install -r requirements.txt
+    ``` 
+again (the function has different dependencies than the project)
+9. to run the function locally, run 
+    ```shell
+    ./index.py
+    ``` 
+in the terminal, if this doesn't work, run 
+    ```
+    chmod u+x ./index.py
+    ```
+should change perms to allow execute
+10.  to deploy run 
+    ```
+    cdk deploy
+    ``` 
+from within the project root. this will use environment variables from 
 
 
 ## Handy links for AWS CDK & LaunchDarkly using Python:
@@ -32,9 +56,12 @@
 - Sample LaunchDarkly python app: https://github.com/launchdarkly/hello-python
 - AWS Lambda CDK Python Docs: https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_lambda/Function.html
 - Experimental CDK Python Lambda Function construct docs: https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_lambda_python_alpha/README.html
-- 
+  
 
 ## Boilerplate CDK README below:
+
+
+-----
 
 ## Welcome to your CDK Python project!
 
