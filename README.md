@@ -20,10 +20,11 @@
 7. cd to the `munnawar_python_function` directory
 8. Run `pip install -r requirements.txt` again
 (the function has different dependencies than the project)
-9.  to deploy run `cdk deploy` from within the project root.
+9. to run the function locally, run `./index.py` in the terminal, if this doesn't work, `chmod u+x ./index.py` should change perms to allow execute
+10.  to deploy run `cdk deploy` from within the project root. this will use environment variables from 
 
 
-## Handy links:
+## Handy links for AWS CDK & LaunchDarkly using Python:
 - getting started with the CDK: https://docs.aws.amazon.com/cdk/v2/guide/hello_world.html
 - python CDK example: https://github.com/aws-samples/aws-cdk-examples/tree/master/python/dynamodb-lambda
 - python CDK docs: https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk/README.html
@@ -32,6 +33,8 @@
 - AWS Lambda CDK Python Docs: https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_lambda/Function.html
 - Experimental CDK Python Lambda Function construct docs: https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_lambda_python_alpha/README.html
 - 
+
+## Boilerplate CDK README below:
 
 ## Welcome to your CDK Python project!
 
