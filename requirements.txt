@@ -23,6 +23,8 @@ constructs==10.1.92
     #   aws-cdk-aws-lambda-python-alpha
     #   aws-cdk-lib
     #   python-cdk-starter-kit (pyproject.toml)
+datadog-cdk-constructs-v2-0.3.5
+
 exceptiongroup==1.0.0rc9
     # via cattrs
 jsii==1.66.0
