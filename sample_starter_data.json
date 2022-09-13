@@ -1,0 +1,9 @@
+{
+  "errorRateMax": 4,
+  "errorRateMin": 2,
+  "errorRateBump": 5,
+  "successRateMax": 20,
+  "successRateMin": 14,
+  "waitSeconds": 2,
+  "iterations": 1
+}
